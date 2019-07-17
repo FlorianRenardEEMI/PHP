@@ -1,0 +1,23 @@
+body{
+background-color: #fecc00;
+}
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.film{
+    margin:10px;
+    padding: 10px;
+    background-color: white;
+    width:calc(25% - 40px); /* l'espace qui entour le - est important ! */
+
+}
+
+.film img{
+    width: 100%;
+}

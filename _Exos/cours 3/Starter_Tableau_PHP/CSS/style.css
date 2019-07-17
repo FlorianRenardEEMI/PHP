@@ -1,0 +1,14 @@
+.title {
+    font-style: italic;
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: right;
+}
+.p3{
+    font-size: 50px;
+    text-align : center;
+    color: blue; 
+}
