@@ -1,0 +1,57 @@
+body {
+
+    border: solid 1px black;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header {
+
+    border: solid 1px blue;
+    height: 100%;
+}
+
+.logo{
+
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+
+    display: flex;
+    height: 120px;
+
+}
+
+.title{
+
+    display: flex;
+    justify-content: center
+}
+
+.adresse_clt{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+
+.tableau {
+
+    border: solid 1px red;
+    height: 100%;
+}
+
+
+.footer {
+
+    border: solid 1px green;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}

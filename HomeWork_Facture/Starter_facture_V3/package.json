@@ -1,0 +1,22 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel app/index.pug",
+    "build": "parcel build app/index.pug --public-url= ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "pug": "^2.0.3",
+    "sass": "^1.15.3"
+  },
+  "dependencies": {
+    "flexboxgrid": "^6.3.1"
+  }
+}

@@ -1,0 +1,75 @@
+.page{
+
+    border: solid;
+    margin:0 auto;
+    width: 29.7cm;
+    height: 21cm;
+        
+}
+
+.header{
+    border:solid blue;
+    margin:0 auto;
+    height: 20%;
+    position:relative;
+}
+
+.logo{
+
+    position:absolute;
+    left : 50%;
+    top:10px;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+
+    position:absolute;
+    left : 50%;
+    top:20px;
+    transform: translate(-50%,-50%);
+
+}
+
+.numfact{
+
+    display:flex;
+    justify-content: flex-end;
+}
+
+.adresse{
+
+    border: solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.adresse_frs{
+    
+    border: solid;
+    width:30%;
+    
+}
+
+.adresse_clt{
+    
+    border: solid;
+    width:40%;
+    
+   
+}
+
+.détail{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.footer{
+
+    border:solid green;
+    
+}

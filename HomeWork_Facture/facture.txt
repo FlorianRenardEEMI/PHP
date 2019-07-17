@@ -1,0 +1,3 @@
+avoir un bouton qui génére un PDF 
+
+avoir la possibilité de générer la facture en PDF, l'enregistrer en local et l'envoyer par mail.

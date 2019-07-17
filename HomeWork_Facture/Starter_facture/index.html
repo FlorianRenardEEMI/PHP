@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facture PHP</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <section class="page">
+
+        <header class="header">
+            <div class="logo">
+                <img src=".
+                /images/Logo.jpg" alt="logo" srcset="logo">
+            </div>
+            <h1 class="title">Hellfox Company</h1>
+            <div class="adresse_frs">
+                <p>Hellfox Company</p>
+                <p>15 rue Voltaire</p>
+                <p>93150 Le Blanc-mesnil</p>
+            </div>
+              
+        </header>
+        <div>fait le : <!--insérer fonction PHP-->à :<!--insérer fonction PHP--></div>
+        <p>paiement comptant</p>
+        <div class="numfact">N° de facture :<!--insérer fonction PHP--></div>
+        <div class="adresse">
+
+            <div class="adresse_clt">
+                <p>Pierre VELON</p>
+                <p>28 place de la Bourse</p>
+                <p>75002 PARIS</p>
+            </div>
+        </div>
+
+        <div class="corps">
+
+        <h2 class="détail">Détail</h2>
+<table class="tableau" border="1" align="center" width="80%" cellspacing="0" cellpadding="10">
+
+        <?php $entete = array("Date","Désignation","Quantité","PU","TVA","P HT");(
+        $produit=array(
+            "Date"=> date("d/m/y"),
+            "Désignation"=> "objet 1",
+            "Quantité"=> "3",
+            "PU"=>"1000€",
+            "TVA"=> "20%",
+            "P HT"=> (1000.00*3)
+        );
+
+        $produit=array(
+            "Date"=> date("d/m/y"),
+            "Désignation"=> "objet 1",
+            "Quantité"=> "3",
+            "PU"=>"1000€",
+            "TVA"=> "20%",
+            "P HT"=> (1000.00*3)
+        );
+
+        $produit=array(
+            "Date"=> date("d/m/y"),
+            "Désignation"=> "objet 1",
+            "Quantité"=> "3",
+            "PU"=>"1000€",
+            "TVA"=> "20%",
+            "P HT"=> (1000.00*3)
+        );
+
+        $produit=array(
+            "Date"=> date("d/m/y"),
+            "Désignation"=> "objet 1",
+            "Quantité"=> "3",
+            "PU"=>"1000€",
+            "TVA"=> "20%",
+            "P HT"=> (1000.00*3)
+        );
+
+        $produit=array(
+            "Date"=> date("d/m/y"),
+            "Désignation"=> "objet 1",
+            "Quantité"=> "3",
+            "PU"=>"1000€",
+            "TVA"=> "20%",
+            "P HT"=> (1000.00*3)
+        );
+
+        $produit=array(
+            "Date"=> date("d/m/y"),
+            "Désignation"=> "objet 1",
+            "Quantité"=> "3",
+            "PU"=>"1000€",
+            "TVA"=> "20%",
+            "P HT"=> (1000.00*3)
+        );
+
+    );
+
+?>
+
+    <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facture PHP</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+    td,tr{
+        border: 1px solid black;
+    }
+    th{
+        color:black;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        margin:auto;
+        text-align: center;
+    }   
+    </style>
+</head>
+
+<body>
+<table>
+
+<?php
+
+for($i = 0, $i < count($entete); $i++){
+    echo("<th>".$entete[$i]."</th>");
+}
+
+foreach ($produit as $valeur) {
+
+    echo("<tr>");
+    echo("<td>".$valeur["Date"]."</td>");
+    echo("<td>".$valeur["Désignation"]."</td>");
+    echo("<td>".$valeur["Quantité"]."</td>");
+    echo("<td>".$valeur["PU"]."</td>");
+    echo("<td>".$valeur["TVA"]."</td>");
+    echo("<td>".$valeur["P HT"]."</td>");
+    echo("</tr>");
+
+}
+
+?>
+</table>
+
+</div>
+
+<footer class="footer">
+<p>Hellfox Company SA</p>
+<p>Siège Social : 15 rue Voltaire 93150 Le Blanc-mesnil</p>
+<p>N° de TVA intracommunautaire : FR572 063 972</p>
+<p>SIRET : 572 063 972 00861</p>
+<p>code NAF : 7711B</p>
+<p>en cas de retard de paiement des pénalités de retard de 20% du prix HT seront appliquées par jour de retard.<br> De plus, une indemnité forfaitaire de 40€ pour frais de recouvrement sera demandé
+</p>
+
+
+        </footer>
+
+
+
+    </section>
+
+
+</body>
+
+</html>
